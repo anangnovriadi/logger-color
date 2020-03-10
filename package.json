@@ -1,0 +1,31 @@
+{
+  "name": "logger-color",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anangnovriadi/logger-color.git"
+  },
+  "keywords": [
+    "node",
+    "logger",
+    "javascript",
+    "winston",
+    "chalk"
+  ],
+  "author": "anangnovriadi <anangnov99@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anangnovriadi/logger-color/issues"
+  },
+  "homepage": "https://github.com/anangnovriadi/logger-color#readme",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "moment": "^2.24.0",
+    "winston": "^3.2.1"
+  }
+}

@@ -15,7 +15,8 @@
     "logger",
     "javascript",
     "winston",
-    "chalk"
+    "chalk",
+    "moment"
   ],
   "author": "anangnovriadi <anangnov99@gmail.com>",
   "license": "ISC",

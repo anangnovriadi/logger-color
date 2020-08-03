@@ -11,8 +11,7 @@ const customFormat = printf(options => {
         'IP             : '+chalk.bold.yellow(options.message.ip)+'\n'+
         'ENDPOINT       : '+chalk.bold.yellow(options.message.endpoint)+'\n'+
         'METHOD         : '+chalk.bold.yellow(options.message.method)+'\n'+
-        'RESPONSE TIME  : '+chalk.bold.yellow(options.message.responseTime)+'\n'+
-        'DATE           : '+chalk.bold.yellow(moment().format())+'\n'+
+        'DATE           : '+chalk.bold.yellow(moment().format("YYYY-MM-DD HH:mm:ss"))+'\n'+
         chalk.cyan('============================= PARAMS =================================')+'\n'+
         JSON.stringify(options.message.params)+'\n'+
         chalk.cyan('============================ MESSAGE =================================')+'\n'+

@@ -12,9 +12,9 @@ const customFormat = printf(options => {
         'ENDPOINT       : '+chalk.bold.yellow(options.message.endpoint)+'\n'+
         'METHOD         : '+chalk.bold.yellow(options.message.method)+'\n'+
         'DATE           : '+chalk.bold.yellow(moment().format("YYYY-MM-DD HH:mm:ss"))+'\n'+
-        chalk.cyan('============================= PARAMS =================================')+'\n'+
+        chalk.cyan('============================= REQUEST =================================')+'\n'+
         JSON.stringify(options.message.params)+'\n'+
-        chalk.cyan('============================ MESSAGE =================================')+'\n'+
+        chalk.cyan('============================ RESPONSE =================================')+'\n'+
         (JSON.stringify(options.message.results))+'\n'+
         chalk.bold.blue('======================================================================');
     
